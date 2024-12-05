@@ -14,7 +14,7 @@ export default function Features() {
       icon: <LuServerOff fontSize="25px" />,
       content:
         "We specialize in serverless computing, enabling you to build app functionality without the hassle of infrastructure management. Let the cloud provider handle setup, capacity planning, and server management. We architect serverless applications to be highly scalable and event-driven, utilizing resources only when a specific function or trigger occurs.",
-      link: "/serverless computing",
+      link: "/serverless-computing",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ export default function Features() {
       icon: <CgWebsite fontSize="25px" />,
       content:
         "At Stigmata Techno Solutions, we leverage cutting-edge AI to drive innovation and efficiency. Our solutions optimize processes, enhance decision-making, and deliver personalized customer experiences. From machine learning to natural language processing and predictive analytics, we unlock AI's full potential for your needs.",
-      link: "/software development",
+      link: "/software-development",
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ export default function Features() {
       icon: <FaCloud fontSize="25px" />,
       content:
         "Thinking about moving your workloads to the cloud, whether it's your applications, database, or server? Unsure where to start? Stigmata Techno Solutions is here to assist your organization in migrating servers, databases, applications, and emails to cloud, dedicated, and virtual environments, with a strong focus on security.",
-      link: "/cloud migration",
+      link: "/cloud-migration",
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ export default function Features() {
       icon: <FaMobileScreenButton fontSize="25px" />,
       content:
         "Our team excels in developing robust and scalable web portals tailored to your enterprise's unique needs. By combining innovative technology with user-centric design, we deliver portals that enhance collaboration, streamline workflows, and improve overall efficiency.",
-      link: "/mobile app development",
+      link: "/mobile-app-development",
     },
     {
       id: 6,
