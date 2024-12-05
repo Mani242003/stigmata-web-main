@@ -15,8 +15,6 @@ const News = () => {
           <div className="flex items-center justify-center flex-wrap gap-4">
             {newsData.map((blog) => (
               <div key={blog.id} className="px-3">
-                {/* {" "} */}
-                {/* Add padding here for spacing */}
                 <NewsCard
                   image={blog.image}
                   title={blog.title}
