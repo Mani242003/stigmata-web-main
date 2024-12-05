@@ -8,8 +8,8 @@ const Blog = () => {
     <div>
 
 
-<div className="  p-[3rem]">
-  <span className="text-desGray text-5xl font-extrabold">Blogs</span>
+<div className="bg-primary px-[1.5rem] py-[1.5rem]">
+  <span className="text-white text-5xl font-bold">Blogs</span>
  
   
 </div>
