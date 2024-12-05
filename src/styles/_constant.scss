@@ -1,0 +1,89 @@
+@import "./_variables.scss";
+
+// reapete
+@mixin flexAlignCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flexAlign {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flexRowDefault {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin button {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background: $orgGreen;
+  color: white;
+  font-size: 13px;
+  padding: 8px 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@mixin flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// @mixin fullWidthHeight{
+//   height: 100%;
+//   width: 100%;
+// }
+// _-------------------------------------------------------
+@mixin flexAlignJustifyCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin homePageSocialLink {
+  width: 45px;
+  height: 45px;
+  @include flexAlignCenter;
+  font-size: 25px;
+}
+
+@mixin ButtonCommon {
+  padding: 13px 13px;
+  width: 200px;
+
+  background: white;
+  @include flexAlignJustifyCenter;
+  gap: 8px;
+
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    svg {
+      transform: translateX(8px);
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $green;
+    // color: white;
+    margin-left: 3px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  svg {
+    color: $green;
+
+    transform: translateX(0px);
+    transition: 0.5s;
+    font-size: 20px;
+  }
+}

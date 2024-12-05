@@ -1,0 +1,1 @@
+import{j as e,L as r}from"./index-HZXVzyJt.js";const o=()=>e.jsxs("div",{children:[e.jsx("h1",{children:"404 Page Not Found"}),e.jsx(r,{to:"/",className:"mt-4 text-blue-500 underline",children:"Go Back to Home"})]});export{o as default};

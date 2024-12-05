@@ -1,0 +1,1 @@
+import{j as s}from"./index-HZXVzyJt.js";import{B as e}from"./BlogList-DvB23b0j.js";import"./blogData-C4KhOxxj.js";const a=()=>s.jsxs("div",{children:[s.jsx("div",{className:"  p-[3rem]",children:s.jsx("span",{className:"text-desGray text-5xl font-extrabold",children:"Blogs"})}),s.jsx(e,{isHomePage:!1})]});export{a as default};
