@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Routers from "../src/components/routers/Routers";
+import ScrollToTopCOmponent from "./components/ScrollToTopCOmponent";
 
 const App = () => {
   React.useEffect(() => {
@@ -17,6 +18,7 @@ const App = () => {
 
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+         <ScrollToTopCOmponent />
       <Routers />
     </div>
   );

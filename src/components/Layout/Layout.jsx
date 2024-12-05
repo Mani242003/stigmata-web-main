@@ -8,8 +8,10 @@ import { Outlet } from "react-router-dom";  // This is where the routes will be 
 const Layout = () => {
   return (
     <div>
+      
       <Navbar />
       <ScrollToTop smooth />
+   
       
       <div>
         <SocialMedia />

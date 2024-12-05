@@ -40,7 +40,7 @@ const Footer = () => {
             </Link>
             <Link
               className="hover:text-black mb-2"
-              to="/mobile-app=development"
+              to="/mobile-app-development"
             >
               Mobile App Development
             </Link>
@@ -74,7 +74,7 @@ const Footer = () => {
           {/* Company */}
           <div data-aos="zoom-in" className="flex flex-col ">
             <span className="text-[19px] font-semibold mb-4">Company</span>
-            <Link className="hover:text-black mb-2" to="/home">
+            <Link className="hover:text-black mb-2" to="/">
               Home
             </Link>
             <Link className="hover:text-black mb-2" to="/about-us">
